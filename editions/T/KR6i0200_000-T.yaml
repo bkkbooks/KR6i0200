@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0200/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 有德女所問大乘經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0568.xml
+    old_id: T14n0568
+hash: sha256:d7d04196095702d8c4ad4b7eac274438c162bdc680f02e01166126138468b069

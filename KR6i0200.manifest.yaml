@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0200/v1
+canonical_location: https://kanripo.org/bkk/KR6i0200/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 有德女所問大乘經
+  identifiers:
+    alt_id:
+    - T14n0568
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0568.xml
+    old_id: T14n0568
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0200_000.yaml, hash: 'sha256:d7d04196095702d8c4ad4b7eac274438c162bdc680f02e01166126138468b069'}
+  - {seq: 1, filename: KR6i0200_001.yaml, hash: 'sha256:01cf35c3ba2807e5cb8cdbb3de070de9c4d262573b03ed85e4258883b17ac33d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0200_001.markers.yaml, hash: 'sha256:a5efb7be95a6901ef3ff833357f6200d87192ec98af4a860a5faaa2d55a34846'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0200_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1620
+  label: 有德女所問大乘經
+  type: juan
+  level: 1
+hash: sha256:521a7dd742b3688032bbc32c161aff3e8ea01a97a5667e15353b34299b8e68a4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
