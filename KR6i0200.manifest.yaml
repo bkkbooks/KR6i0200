@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0200/v1
 canonical_location: https://kanripo.org/bkk/KR6i0200/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 有德女所問大乘經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0200_000.yaml, hash: 'sha256:d7d04196095702d8c4ad4b7eac274438c162bdc680f02e01166126138468b069'}
-  - {seq: 1, filename: KR6i0200_001.yaml, hash: 'sha256:20969e10bf72bd68fc87649c8257d92ee5f86ad8870e8368df0f07f2b8a6b0b3'}
+  - {seq: 1, filename: KR6i0200_001.yaml, hash: 'sha256:56482b63eab52df37bf4fda400294b5a7b0c58d7e35c586b3e4b4ec9d214faa2'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0200_000.markers.yaml, hash: 'sha256:b4d1e166c752b24c404b0dbb9371ce6b80e7f4bd94225624f506652d132517d8'}
-  - {seq: 1, role: markers, filename: assets/KR6i0200_001.markers.yaml, hash: 'sha256:ed4190485cd23f4ec1be1cc419dae5b9737316cc5785123fe6e2603012736de0'}
+  - {seq: 1, role: markers, filename: assets/KR6i0200_001.markers.yaml, hash: 'sha256:21351cffc46028e49325f6c1b6b5f4b842ee69eb35bfad4d2d58ff7702327337'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 有德女所問大乘經
   type: juan
   level: 1
-hash: sha256:817f01aac1ea4849f2b591252d9b13b3c6b51fd8f8c82f04b27ebb3fb6a774e0
+hash: sha256:af67d85d4d81efda3f42b36ed2962714e6a61a459fe9d2a9bdc363f5ad092004
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
